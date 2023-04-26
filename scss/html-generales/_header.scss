@@ -1,0 +1,26 @@
+/*estilos para version mobile*/
+
+/*estilos del header de mi sitio web*/
+
+header {
+    nav {
+        div {
+            .menu-hamburguesa:focus {
+                box-shadow: none;       
+            }
+            div{
+                ul{
+                    li{
+                        .font-nav{
+                            color: black;
+                            font-weight: bold;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+}

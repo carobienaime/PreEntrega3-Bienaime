@@ -1,3 +1,9 @@
+//imports
+
+@import "variables";
+@import "mixin";
+
+
 %display-none{
     display: none;
 }
@@ -7,38 +13,27 @@
 }
 
 %flex1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex1;
 }
 
 %flex2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex2;
 }
 
 %flex3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex2;
     gap: 0.8rem;
 }
 
 %cont-secc{
-    background-color: rgb(5, 43, 100);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: $color-principal;
+    @include padding-mobile;
+    @include flex1;
 }
 
 %titulo-secc{
     margin-bottom: 0;
-    color: white;
+    color: $color-font-secc;
     font-size: 1.2rem;
 }
 
@@ -48,7 +43,7 @@
 
 %h2-secc{
     margin-bottom: 0;
-    color: black;
+    color: $color-font-text;
     font-size: 1rem;
     font-weight: bold;
 }
