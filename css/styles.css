@@ -1,0 +1,478 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos para version mobile*/
+
+/*estilos del header de la Seccion Nosotros y Menu*/
+
+.menu-hamburguesa:focus {
+    box-shadow: none;
+}
+
+.font-nav {
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+/*estilos de los titulos y subtitulos de las secciones*/
+
+.cont-secc {
+    background-color: rgb(5, 43, 100);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-secc {
+    margin-bottom: 0;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.h2-secc {
+    margin-bottom: 0;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+/*estilos del main de la Seccion Nosotros*/
+
+.main-nosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 1.1rem;
+
+    margin-bottom: 1.6rem;
+}
+
+.cont-h2-p-nos {
+    grid-row: 1 / 2;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    gap: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cont-img1-nos {
+    grid-row: 2 / 3;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-img2-nos {
+    grid-row: 3 / 4;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2-secc-nos {
+    margin-top: 1.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+
+}
+
+.img1-nosotros,
+.img2-nosotros {
+    width: 100%;
+    height: 100%;
+}
+
+.p-nosotros {
+    font-size: 0.9rem;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+/*estilos del main de la Seccion Menu*/
+
+.cont-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+
+.cont-h2-menu,
+.entradas-menu,
+.principales-menu,
+.guarniciones-menu,
+.postres-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.cont-h2-menu {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.lista-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.item-lista-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre-plato {
+    font-weight: 600;
+    margin-bottom: 0;
+    padding: 0.5rem;
+    color: black;
+}
+
+.descrip-plato {
+    font-style: oblique;
+    color: black;
+    margin-bottom: 0;
+}
+
+.galeria-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+
+.img-menu {
+    width: 100%;
+    height: 100%;
+}
+
+/*estilos del footer de la Seccion Nosotros y Menu*/
+
+.ubicacion-footer,
+.contacto-footer,
+.boton-arriba-footer {
+    display: none;
+}
+
+.sections-footer {
+    background-color: rgb(5, 43, 100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.redes-footer,
+.newsletter-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+footer div div form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+
+}
+
+.iconos-redes,
+.input-newsletter,
+.boton-newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3-footer {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+.iconos-redes {
+    gap: 1rem;
+}
+
+.icono-red {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.input-newsletter2 {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.boton-newsletter2 {
+    font-size: 0.8rem;
+}
+
+.derechos-footer {
+    background-color: rgb(81, 111, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.p-footer {
+    margin-bottom: 0;
+    color: white;
+    font-size: 0.8rem;
+}
+
+/*estilos al formulario del newsletter del footer*/
+
+div form fieldset legend {
+    display: none;
+}
+
+div form fieldset div label {
+    display: none;
+}
+
+/*estilos para version desktop*/
+
+@media screen and (min-width:1024px) {
+
+    /*estilos del header de la Seccion Nosotros y Menu*/
+    .font-nav {
+        font-size: 1.1rem;
+    }
+
+    .font-nav:hover {
+        color: black;
+        border-bottom: 3px solid rgb(5, 43, 100);
+    }
+
+    /*estilos de los titulos y subtitulos de las secciones*/
+    .titulo-secc {
+        font-size: 1.8rem;
+    }
+
+    .h2-secc {
+        font-size: 1.5rem;
+    }
+
+    /*estilos del main de la Seccion Nosotros*/
+    .main-nosotros {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        column-gap: 2.2rem;
+        row-gap: 1.5rem;
+    }
+
+    .cont-h2-p-nos {
+        grid-column: 1 / 2;
+        grid-row: 1 / span 3;
+        margin-right: 0;
+        margin-left: 2.2rem;
+
+        justify-content: flex-start;
+    }
+
+    .cont-img1-nos {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        margin-left: 0;
+        margin-right: 2.2rem;
+
+        margin-top: 4rem;
+    }
+
+    .cont-img2-nos {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        margin-left: 0;
+        margin-right: 2.2rem;
+    }
+
+    .h2-secc-nos {
+        margin-top: 3.5rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .p-nosotros {
+        font-size: 1rem;
+    }
+
+    /*estilos del main de la Seccion Menu*/
+
+    .cont-menu {
+        gap: 3.8rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .cont-h2-menu {
+        padding-bottom: 0;
+    }
+
+    .nombre-plato,
+    .descrip-plato {
+        font-size: 1.2rem;
+    }
+
+    .galeria-menu {
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        margin-bottom: 2.7rem;
+    }
+
+    .img-menu {
+        width: 30%;
+        height: 30%;
+    }
+
+    /*estilos del footer de la Seccion Nosotros y Menu*/
+
+    .ubicacion-footer,
+    .contacto-footer,
+    .boton-arriba-footer {
+        display: block;
+    }
+
+    .sections-footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .ubicacion-footer,
+    .contacto-footer,
+    .p-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-ubicacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .h3-footer2 {
+        padding-bottom: 0.8rem;
+    }
+
+    .p-secc-footer {
+        margin-bottom: 0;
+        color: white;
+        font-size: 0.9rem;
+    }
+
+    .input-newsletter {
+        font-size: 0.9rem;
+    }
+
+    .input-newsletter2 {
+        padding: 0.08rem;
+    }
+
+    .boton-newsletter2 {
+        border-width: 1px;
+        border-style: solid;
+        border-image: none;
+        padding: 0.2rem;
+    }
+
+    .boton-newsletter2:hover {
+        background-color: rgb(170, 168, 168);
+    }
+
+    .boton-newsletter2:active {
+        background-color: rgb(143, 141, 141);
+    }
+
+    .derechos-footer {
+        padding-top: 0;
+    }
+
+    .boton-arriba-footer {
+        background-color: rgb(81, 111, 155);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 0.5rem;
+    }
+
+    .icono-boton-arriba {
+        color: white;
+        font-size: 1.2rem;
+        border: 1px solid rgba(255, 255, 255, 0.363);
+        background-color: rgba(255, 255, 255, 0.363);
+        padding: 0rem 0.2rem;
+    }
+
+    .icono-boton-arriba:hover {
+        background-color: rgb(73, 94, 126);
+    }
+
+    .icono-boton-arriba:active {
+        background-color: rgb(59, 88, 131);
+    }
+
+}
