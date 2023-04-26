@@ -1,0 +1,32 @@
+@mixin flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin padding-mobile{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@mixin margin-mobile{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+@mixin margin-desktop{
+    margin-right: 0;
+    margin-left: 2.2rem;
+}
+
+@mixin img($width, $height){
+    width: $width;
+    height: $height;
+}
