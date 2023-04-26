@@ -327,4 +327,77 @@ footer .derechos-footer {
       border-bottom: 3px solid #052b64; }
   /*estilos de los titulos y subtitulos de las secciones*/
   main .cont-secc .titulo-secc {
-    font-size: 1.8rem; } }
+    font-size: 1.8rem; }
+  /*estilos del main de la Seccion Nosotros*/
+  main .main-nosotros {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 2.2rem;
+    row-gap: 1.5rem; }
+    main .main-nosotros .cont-h2-p-nos {
+      grid-column: 1 / 2;
+      grid-row: 1 / span 3;
+      margin-right: 0;
+      margin-left: 2.2rem;
+      justify-content: flex-start; }
+      main .main-nosotros .cont-h2-p-nos .h2-secc {
+        font-size: 1.5rem; }
+      main .main-nosotros .cont-h2-p-nos .h2-secc-nos {
+        margin-top: 3.5rem;
+        padding-bottom: 2rem; }
+      main .main-nosotros .cont-h2-p-nos .p-nosotros {
+        font-size: 1rem; }
+    main .main-nosotros .cont-img1-nos {
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+      margin-left: 0;
+      margin-right: 2.2rem;
+      margin-top: 4rem; }
+    main .main-nosotros .cont-img2-nos {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      margin-left: 0;
+      margin-right: 2.2rem; }
+  /*estilos del main de la Seccion Menu*/
+  main .cont-menu {
+    gap: 3.8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem; }
+    main .cont-menu .cont-h2-menu {
+      padding-bottom: 0; }
+      main .cont-menu .cont-h2-menu .h2-secc {
+        font-size: 1.5rem; }
+    main .cont-menu .entradas-menu .h2-secc {
+      font-size: 1.5rem; }
+    main .cont-menu .entradas-menu .lista-menu .item-lista-menu .nombre-plato {
+      font-size: 1.2rem; }
+    main .cont-menu .entradas-menu .lista-menu .item-lista-menu .descrip-plato {
+      font-size: 1.2rem; }
+    main .cont-menu .principales-menu .h2-secc {
+      font-size: 1.5rem; }
+    main .cont-menu .principales-menu .lista-menu .item-lista-menu .nombre-plato {
+      font-size: 1.2rem; }
+    main .cont-menu .principales-menu .lista-menu .item-lista-menu .descrip-plato {
+      font-size: 1.2rem; }
+    main .cont-menu .guarniciones-menu .h2-secc {
+      font-size: 1.5rem; }
+    main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu .nombre-plato {
+      font-size: 1.2rem; }
+    main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu .descrip-plato {
+      font-size: 1.2rem; }
+    main .cont-menu .postres-menu .h2-secc {
+      font-size: 1.5rem; }
+    main .cont-menu .postres-menu .lista-menu .item-lista-menu .nombre-plato {
+      font-size: 1.2rem; }
+    main .cont-menu .postres-menu .lista-menu .item-lista-menu .descrip-plato {
+      font-size: 1.2rem; }
+  main .galeria-menu {
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    margin-bottom: 2.7rem; }
+    main .galeria-menu .img-menu {
+      width: 30%;
+      height: 30%; }
+  /*estilos del footer de mi sitio web*/ }

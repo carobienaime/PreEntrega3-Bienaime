@@ -1,5 +1,8 @@
 /*estilos para version desktop*/
 
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
 @media screen and (min-width:1024px) {
 
     /*estilos del header de mi sitio web*/
@@ -34,6 +37,144 @@
         }
     }
 
+    /*estilos del main de la Seccion Nosotros*/
+    main{
+        .main-nosotros{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, auto);
+            column-gap: 2.2rem;
+            row-gap: 1.5rem;
+            .cont-h2-p-nos{
+                grid-column: 1 / 2;
+                grid-row: 1 / span 3;
+                margin-right: 0;
+                margin-left: 2.2rem;
+                justify-content: flex-start;
+
+                .h2-secc{
+                    font-size: 1.5rem;
+                }
+
+                .h2-secc-nos{
+                    margin-top: 3.5rem;
+                    padding-bottom: 2rem;
+                }
+
+                .p-nosotros{
+                    font-size: 1rem;
+                }
+
+            }
+
+            .cont-img1-nos{
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+                margin-left: 0;
+                margin-right: 2.2rem;
+                margin-top: 4rem;
+            }
+
+            .cont-img2-nos{
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                margin-left: 0;
+                margin-right: 2.2rem;
+            }
+        }
+    }
+
+    /*estilos del main de la Seccion Menu*/
+
+    main{
+        .cont-menu{
+            gap: 3.8rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            .cont-h2-menu{
+                padding-bottom: 0;
+                .h2-secc{
+                    font-size: 1.5rem;
+                }
+            }
+
+            .entradas-menu{
+                .h2-secc{
+                    font-size: 1.5rem;
+                }
+                .lista-menu{
+                    .item-lista-menu{
+                        .nombre-plato{
+                            font-size: 1.2rem;
+                        }
+                        .descrip-plato{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            .principales-menu{
+                .h2-secc{
+                    font-size: 1.5rem;
+                }
+                .lista-menu{
+                    .item-lista-menu{
+                        .nombre-plato{
+                            font-size: 1.2rem;
+                        }
+                        .descrip-plato{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            .guarniciones-menu{
+                .h2-secc{
+                    font-size: 1.5rem;
+                }
+                .lista-menu{
+                    .item-lista-menu{
+                        .nombre-plato{
+                            font-size: 1.2rem;
+                        }
+                        .descrip-plato{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            .postres-menu{
+                .h2-secc{
+                    font-size: 1.5rem;
+                }
+                .lista-menu{
+                    .item-lista-menu{
+                        .nombre-plato{
+                            font-size: 1.2rem;
+                        }
+                        .descrip-plato{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .galeria-menu{
+            flex-direction: row;
+            gap: 1.5rem;
+            margin-left: 0.7rem;
+            margin-right: 0.7rem;
+            margin-bottom: 2.7rem;
+            .img-menu{
+                @include img(30%, 30%);
+            }
+        }
+    }
+
+    /*estilos del footer de mi sitio web*/
     
 
 
