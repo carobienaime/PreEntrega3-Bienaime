@@ -4,8 +4,7 @@
   padding: 0;
   box-sizing: border-box; }
 
-/*estilos para version mobile*/
-/*estilos del header de mi sitio web*/
+/*estilos del header de mi sitio web - version mobile*/
 header nav div .menu-hamburguesa:focus {
   box-shadow: none; }
 
@@ -14,14 +13,22 @@ header nav div div ul li .font-nav {
   font-weight: bold;
   font-size: 1rem; }
 
-/*estilos del main de la Seccion Nosotros*/
+/*estilos del main de la Seccion Nosotros - version mobile*/
+footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+  display: none; }
+
+footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 main .cont-menu .entradas-menu .lista-menu, main .cont-menu .entradas-menu .lista-menu .item-lista-menu, main .cont-menu .principales-menu .lista-menu, main .cont-menu .principales-menu .lista-menu .item-lista-menu, main .cont-menu .guarniciones-menu .lista-menu, main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu, main .cont-menu .postres-menu .lista-menu, main .cont-menu .postres-menu .lista-menu .item-lista-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
-main .cont-menu .cont-h2-menu, main .cont-menu .entradas-menu, main .cont-menu .principales-menu, main .cont-menu .guarniciones-menu, main .cont-menu .postres-menu {
+main .cont-menu .cont-h2-menu, main .cont-menu .entradas-menu, main .cont-menu .principales-menu, main .cont-menu .guarniciones-menu, main .cont-menu .postres-menu, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,6 +63,11 @@ main .cont-menu .entradas-menu .lista-menu .item-lista-menu .nombre-plato, main 
 main .cont-menu .entradas-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .principales-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .postres-menu .lista-menu .item-lista-menu .descrip-plato {
   font-style: oblique;
   color: black;
+  margin-bottom: 0; }
+
+footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
+  font-size: 1rem;
+  color: white;
   margin-bottom: 0; }
 
 main .main-nosotros {
@@ -104,14 +116,22 @@ main .main-nosotros {
       width: 100%;
       height: 100%; }
 
-/*estilos del main de la Seccion Menu*/
+/*estilos del main de la Seccion Menu - version mobile*/
+footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+  display: none; }
+
+footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 main .cont-menu .entradas-menu .lista-menu, main .cont-menu .entradas-menu .lista-menu .item-lista-menu, main .cont-menu .principales-menu .lista-menu, main .cont-menu .principales-menu .lista-menu .item-lista-menu, main .cont-menu .guarniciones-menu .lista-menu, main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu, main .cont-menu .postres-menu .lista-menu, main .cont-menu .postres-menu .lista-menu .item-lista-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
 
-main .cont-menu .cont-h2-menu, main .cont-menu .entradas-menu, main .cont-menu .principales-menu, main .cont-menu .guarniciones-menu, main .cont-menu .postres-menu {
+main .cont-menu .cont-h2-menu, main .cont-menu .entradas-menu, main .cont-menu .principales-menu, main .cont-menu .guarniciones-menu, main .cont-menu .postres-menu, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,6 +166,11 @@ main .cont-menu .entradas-menu .lista-menu .item-lista-menu .nombre-plato, main 
 main .cont-menu .entradas-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .principales-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .postres-menu .lista-menu .item-lista-menu .descrip-plato {
   font-style: oblique;
   color: black;
+  margin-bottom: 0; }
+
+footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
+  font-size: 1rem;
+  color: white;
   margin-bottom: 0; }
 
 main .cont-menu {
@@ -192,3 +217,114 @@ main .galeria-menu {
   main .galeria-menu .img-menu {
     width: 100%;
     height: 100%; }
+
+/*estilos del footer de mi sitio web - version mobile*/
+footer .sections-footer .ubicacion-footer, footer .sections-footer .contacto-footer, footer .boton-arriba-footer {
+  display: none; }
+
+footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .newsletter-footer form fieldset .input-newsletter, footer .sections-footer .newsletter-footer form fieldset .boton-newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .cont-menu .entradas-menu .lista-menu, main .cont-menu .entradas-menu .lista-menu .item-lista-menu, main .cont-menu .principales-menu .lista-menu, main .cont-menu .principales-menu .lista-menu .item-lista-menu, main .cont-menu .guarniciones-menu .lista-menu, main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu, main .cont-menu .postres-menu .lista-menu, main .cont-menu .postres-menu .lista-menu .item-lista-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+main .cont-menu .cont-h2-menu, main .cont-menu .entradas-menu, main .cont-menu .principales-menu, main .cont-menu .guarniciones-menu, main .cont-menu .postres-menu, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem; }
+
+main .cont-secc {
+  background-color: #052b64;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .cont-secc .titulo-secc {
+  margin-bottom: 0;
+  color: white;
+  font-size: 1.2rem; }
+
+main .main-nosotros .cont-h2-p-nos .h2-secc, main .cont-menu .cont-h2-menu .h2-secc, main .cont-menu .entradas-menu .h2-secc, main .cont-menu .principales-menu .h2-secc, main .cont-menu .guarniciones-menu .h2-secc, main .cont-menu .postres-menu .h2-secc {
+  margin-bottom: 0;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold; }
+
+main .cont-menu .entradas-menu .lista-menu .item-lista-menu .nombre-plato, main .cont-menu .principales-menu .lista-menu .item-lista-menu .nombre-plato, main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu .nombre-plato, main .cont-menu .postres-menu .lista-menu .item-lista-menu .nombre-plato {
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0.5rem;
+  color: black; }
+
+main .cont-menu .entradas-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .principales-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .guarniciones-menu .lista-menu .item-lista-menu .descrip-plato, main .cont-menu .postres-menu .lista-menu .item-lista-menu .descrip-plato {
+  font-style: oblique;
+  color: black;
+  margin-bottom: 0; }
+
+footer .sections-footer .redes-footer .h3-footer, footer .sections-footer .newsletter-footer .h3-footer {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0; }
+
+footer .sections-footer {
+  background-color: #052b64;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+  footer .sections-footer .redes-footer .iconos-redes {
+    gap: 1rem; }
+    footer .sections-footer .redes-footer .iconos-redes .icono-red {
+      color: white;
+      font-size: 1.5rem; }
+  footer .sections-footer .newsletter-footer form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem; }
+    footer .sections-footer .newsletter-footer form fieldset legend {
+      display: none; }
+    footer .sections-footer .newsletter-footer form fieldset .input-newsletter label {
+      display: none; }
+    footer .sections-footer .newsletter-footer form fieldset .input-newsletter .input-newsletter2 {
+      text-align: center;
+      font-size: 0.8rem; }
+    footer .sections-footer .newsletter-footer form fieldset .boton-newsletter .boton-newsletter2 {
+      font-size: 0.8rem; }
+
+footer .derechos-footer {
+  background-color: #516f9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+  footer .derechos-footer .p-footer {
+    margin-bottom: 0;
+    color: white;
+    font-size: 0.8rem; }
+
+/*estilos para version desktop*/
+@media screen and (min-width: 1024px) {
+  /*estilos del header de mi sitio web*/
+  header nav div div ul li .font-nav {
+    font-size: 1.1rem; }
+    header nav div div ul li .font-nav:hover {
+      color: black;
+      border-bottom: 3px solid #052b64; }
+  /*estilos de los titulos y subtitulos de las secciones*/
+  main .cont-secc .titulo-secc {
+    font-size: 1.8rem; } }

@@ -1,0 +1,43 @@
+/*estilos para version desktop*/
+
+@media screen and (min-width:1024px) {
+
+    /*estilos del header de mi sitio web*/
+    header {
+        nav {
+            div {
+                div {
+                    ul {
+                        li {
+                            .font-nav {
+                                font-size: 1.1rem;
+
+                                &:hover {
+                                    color: $color-font-text;
+                                    border-bottom: 3px solid $color-principal;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /*estilos de los titulos y subtitulos de las secciones*/
+    main {
+        .cont-secc{
+            .titulo-secc{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    
+
+
+
+
+
+}

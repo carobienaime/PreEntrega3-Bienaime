@@ -1,0 +1,95 @@
+/*estilos del footer de mi sitio web - version mobile*/
+
+//imports
+@import "../utilidades/extend";
+@import "../utilidades/mixin";
+
+footer {
+    .sections-footer {
+        background-color: $color-principal;
+        @include flex2;
+        gap: 1rem;
+        @include padding-mobile;
+
+        .ubicacion-footer {
+            @extend %display-none;
+        }
+
+        .contacto-footer {
+            @extend %display-none;
+        }
+
+        .redes-footer {
+            @extend %flex3;
+
+            .h3-footer {
+                @extend %h3-footer;
+            }
+
+            .iconos-redes {
+                @extend %flex1;
+                gap: 1rem;
+
+                .icono-red {
+                    color: $color-font-secc;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .newsletter-footer {
+            @extend %flex3;
+
+            .h3-footer {
+                @extend %h3-footer;
+            }
+
+            form {
+                fieldset {
+                    @include flex2;
+                    gap: 0.8rem;
+
+                    legend {
+                        display: none;
+                    }
+
+                    .input-newsletter {
+                        @extend %flex1;
+
+                        label {
+                            display: none;
+
+                        }
+                        .input-newsletter2{
+                            text-align: center;
+                            font-size: 0.8rem;
+                        }           
+
+                    }
+
+                    .boton-newsletter {
+                        @extend %flex1;
+                        .boton-newsletter2{
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .boton-arriba-footer {
+        @extend %display-none;
+    }
+
+    .derechos-footer {
+        background-color: $color-secundario;
+        @include flex1;
+        @include padding-mobile;
+        .p-footer{
+            margin-bottom: 0;
+            color: $color-font-secc;
+            font-size: 0.8rem;
+        }
+    }
+}
