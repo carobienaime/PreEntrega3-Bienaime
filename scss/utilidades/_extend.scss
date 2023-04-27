@@ -12,13 +12,8 @@
     @include flex1;
 }
 
-%flex2{
-    @include flex2;
-}
-
 %flex3{
-    @include flex2;
-    gap: 0.8rem;
+    @include flex3;
 }
 
 %h2-secc{

@@ -35,13 +35,7 @@ footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .ne
   justify-content: center;
   align-items: center; }
 
-main .cont-menu .cont-menu2 .lista-menu, main .cont-menu .cont-menu2 .lista-menu .item-lista-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-main .cont-menu .cont-menu2, main .cont-menu .cont-h2-menu, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -114,13 +108,7 @@ footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .ne
   justify-content: center;
   align-items: center; }
 
-main .cont-menu .cont-menu2 .lista-menu, main .cont-menu .cont-menu2 .lista-menu .item-lista-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-main .cont-menu .cont-menu2, main .cont-menu .cont-h2-menu, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,20 +134,35 @@ main .cont-menu {
   gap: 2rem;
   margin-top: 1.1rem;
   margin-bottom: 1.1rem; }
-  main .cont-menu .cont-menu2 .lista-menu {
-    list-style: none;
-    gap: 1rem;
-    margin-bottom: 0;
-    padding-left: 0; }
-    main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .nombre-plato {
-      font-weight: 600;
+  main .cont-menu .cont-menu2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem; }
+    main .cont-menu .cont-menu2 .lista-menu {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
       margin-bottom: 0;
-      padding: 0.5rem;
-      color: black; }
-    main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .descrip-plato {
-      font-style: oblique;
-      color: black;
-      margin-bottom: 0; }
+      padding-left: 0; }
+      main .cont-menu .cont-menu2 .lista-menu .item-lista-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .nombre-plato {
+          font-weight: 600;
+          margin-bottom: 0;
+          padding: 0.5rem;
+          color: black; }
+        main .cont-menu .cont-menu2 .lista-menu .item-lista-menu .descrip-plato {
+          font-style: oblique;
+          color: black;
+          margin-bottom: 0; }
   main .cont-menu .cont-h2-menu {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
@@ -186,13 +189,7 @@ footer .sections-footer .redes-footer .iconos-redes, footer .sections-footer .ne
   justify-content: center;
   align-items: center; }
 
-main .cont-menu .cont-menu2 .lista-menu, main .cont-menu .cont-menu2 .lista-menu .item-lista-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-main .cont-menu .cont-menu2, main .cont-menu .cont-h2-menu, footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
+footer .sections-footer .redes-footer, footer .sections-footer .newsletter-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -327,13 +324,12 @@ footer .derechos-footer {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      gap: 0.8rem; }
       footer .sections-footer .ubicacion-footer .h3-footer {
         font-size: 1rem;
         color: white;
         margin-bottom: 0; }
-      footer .sections-footer .ubicacion-footer .h3-footer2 {
-        padding-bottom: 0.8rem; }
       footer .sections-footer .ubicacion-footer .p-ubicacion {
         display: flex;
         flex-direction: column;
@@ -348,13 +344,12 @@ footer .derechos-footer {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      gap: 0.8rem; }
       footer .sections-footer .contacto-footer .h3-footer {
         font-size: 1rem;
         color: white;
         margin-bottom: 0; }
-      footer .sections-footer .contacto-footer .h3-footer2 {
-        padding-bottom: 0.8rem; }
       footer .sections-footer .contacto-footer .p-contacto {
         display: flex;
         flex-direction: column;

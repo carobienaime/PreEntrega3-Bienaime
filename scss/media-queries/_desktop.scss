@@ -141,16 +141,10 @@
 
             .ubicacion-footer {
                 display: block;
-                @include flex2;
+                @include flex3;
 
                 .h3-footer {
-                    font-size: 1rem;
-                    color: $color-font-secc;
-                    margin-bottom: 0;
-                }
-
-                .h3-footer2 {
-                    padding-bottom: 0.8rem;
+                    @include h3-footer;
                 }
 
                 .p-ubicacion {
@@ -159,30 +153,23 @@
                     justify-content: center;
                     align-items: flex-start;
                     .p-secc-footer{
-                        margin-bottom: 0;
-                        color: $color-font-secc;
-                        font-size: 0.9rem;
+                        @include p-secc-footer;            
                     }
                 }
             }
 
             .contacto-footer{
                 display: block;
-                @include flex2;
-                .h3-footer{
-                    font-size: 1rem;
-                    color: $color-font-secc;
-                    margin-bottom: 0;}
-                
-                .h3-footer2{
-                    padding-bottom: 0.8rem;}
+                @include flex3;
 
+                .h3-footer{
+                    @include h3-footer;
+                }
+                
                 .p-contacto{
                     @include flex2;
                     .p-secc-footer{
-                        margin-bottom: 0;
-                        color: $color-font-secc;
-                        font-size: 0.9rem;
+                        @include p-secc-footer;   
                     }
                 }
             }

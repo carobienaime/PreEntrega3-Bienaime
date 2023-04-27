@@ -46,8 +46,7 @@ footer {
 
             form {
                 fieldset {
-                    @include flex2;
-                    gap: 0.8rem;
+                    @include flex3;
 
                     legend {
                         display: none;
