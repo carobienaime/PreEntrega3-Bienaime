@@ -30,43 +30,44 @@
 
     /*estilos de los titulos y subtitulos de las secciones*/
     main {
-        .cont-secc{
-            .titulo-secc{
+        .cont-secc {
+            .titulo-secc {
                 font-size: 1.8rem;
             }
         }
     }
 
     /*estilos del main de la Seccion Nosotros*/
-    main{
-        .main-nosotros{
+    main {
+        .main-nosotros {
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, auto);
             column-gap: 2.2rem;
             row-gap: 1.5rem;
-            .cont-h2-p-nos{
+
+            .cont-h2-p-nos {
                 grid-column: 1 / 2;
                 grid-row: 1 / span 3;
                 margin-right: 0;
                 margin-left: 2.2rem;
                 justify-content: flex-start;
 
-                .h2-secc{
+                .h2-secc {
                     font-size: 1.5rem;
                 }
 
-                .h2-secc-nos{
+                .h2-secc-nos {
                     margin-top: 3.5rem;
                     padding-bottom: 2rem;
                 }
 
-                .p-nosotros{
+                .p-nosotros {
                     font-size: 1rem;
                 }
 
             }
 
-            .cont-img1-nos{
+            .cont-img1-nos {
                 grid-column: 2 / 3;
                 grid-row: 1 / 2;
                 margin-left: 0;
@@ -74,7 +75,7 @@
                 margin-top: 4rem;
             }
 
-            .cont-img2-nos{
+            .cont-img2-nos {
                 grid-column: 2 / 3;
                 grid-row: 2 / 3;
                 margin-left: 0;
@@ -85,76 +86,86 @@
 
     /*estilos del main de la Seccion Menu*/
 
-    main{
-        .cont-menu{
+    main {
+        .cont-menu {
             gap: 3.8rem;
             margin-top: 3rem;
             margin-bottom: 3rem;
-            .cont-h2-menu{
+
+            .cont-h2-menu {
                 padding-bottom: 0;
-                .h2-secc{
+
+                .h2-secc {
                     font-size: 1.5rem;
                 }
             }
 
-            .entradas-menu{
-                .h2-secc{
+            .entradas-menu {
+                .h2-secc {
                     font-size: 1.5rem;
                 }
-                .lista-menu{
-                    .item-lista-menu{
-                        .nombre-plato{
+
+                .lista-menu {
+                    .item-lista-menu {
+                        .nombre-plato {
                             font-size: 1.2rem;
                         }
-                        .descrip-plato{
+
+                        .descrip-plato {
                             font-size: 1.2rem;
                         }
                     }
                 }
             }
 
-            .principales-menu{
-                .h2-secc{
+            .principales-menu {
+                .h2-secc {
                     font-size: 1.5rem;
                 }
-                .lista-menu{
-                    .item-lista-menu{
-                        .nombre-plato{
+
+                .lista-menu {
+                    .item-lista-menu {
+                        .nombre-plato {
                             font-size: 1.2rem;
                         }
-                        .descrip-plato{
+
+                        .descrip-plato {
                             font-size: 1.2rem;
                         }
                     }
                 }
             }
 
-            .guarniciones-menu{
-                .h2-secc{
+            .guarniciones-menu {
+                .h2-secc {
                     font-size: 1.5rem;
                 }
-                .lista-menu{
-                    .item-lista-menu{
-                        .nombre-plato{
+
+                .lista-menu {
+                    .item-lista-menu {
+                        .nombre-plato {
                             font-size: 1.2rem;
                         }
-                        .descrip-plato{
+
+                        .descrip-plato {
                             font-size: 1.2rem;
                         }
                     }
                 }
             }
 
-            .postres-menu{
-                .h2-secc{
+            .postres-menu {
+                .h2-secc {
                     font-size: 1.5rem;
                 }
-                .lista-menu{
-                    .item-lista-menu{
-                        .nombre-plato{
+
+                .lista-menu {
+                    .item-lista-menu {
+                        .nombre-plato {
                             font-size: 1.2rem;
                         }
-                        .descrip-plato{
+
+                        .descrip-plato {
                             font-size: 1.2rem;
                         }
                     }
@@ -162,23 +173,138 @@
             }
         }
 
-        .galeria-menu{
+        .galeria-menu {
             flex-direction: row;
             gap: 1.5rem;
             margin-left: 0.7rem;
             margin-right: 0.7rem;
             margin-bottom: 2.7rem;
-            .img-menu{
+
+            .img-menu {
                 @include img(30%, 30%);
             }
         }
     }
 
     /*estilos del footer de mi sitio web*/
-    
 
+    footer {
+        .sections-footer {
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: baseline;
+            padding-top: 1.5rem;
+            padding-bottom: 1rem;
 
+            .ubicacion-footer {
+                display: block;
+                @include flex2;
 
+                .h3-footer {
+                    font-size: 1rem;
+                    color: $color-font-secc;
+                    margin-bottom: 0;
+                }
 
+                .h3-footer2 {
+                    padding-bottom: 0.8rem;
+                }
+
+                .p-ubicacion {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    .p-secc-footer{
+                        margin-bottom: 0;
+                        color: $color-font-secc;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+
+            .contacto-footer{
+                display: block;
+                @include flex2;
+                .h3-footer{
+                    font-size: 1rem;
+                    color: $color-font-secc;
+                    margin-bottom: 0;}
+                
+                .h3-footer2{
+                    padding-bottom: 0.8rem;}
+
+                .p-contacto{
+                    @include flex2;
+                    .p-secc-footer{
+                        margin-bottom: 0;
+                        color: $color-font-secc;
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+
+            .newsletter-footer{
+                form{
+                    fieldset{
+                        .input-newsletter{
+                            font-size: 0.9rem;
+                            .input-newsletter2{
+                                padding: 0.08rem;
+                            }
+                        }
+
+                        .boton-newsletter{
+                            .boton-newsletter2{
+                                border-width: 1px;
+                                border-style: solid;
+                                border-image: none;
+                                padding: 0.2rem;
+
+                                &:hover{
+                                    background-color: rgb(170, 168, 168);
+                                }
+
+                                &:active{
+                                    background-color: rgb(143, 141, 141)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .boton-arriba-footer{
+            display: block;
+            background-color: rgb(81, 111, 155);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 0.5rem;
+            .icono-boton-arriba{
+                color: white;
+                font-size: 1.2rem;
+                border: 1px solid rgba(255, 255, 255, 0.363);
+                background-color: rgba(255, 255, 255, 0.363);
+                padding: 0rem 0.2rem;
+
+                &:hover{
+                    background-color: rgb(73, 94, 126);
+                }
+
+                &:active{
+                    background-color: rgb(59, 88, 131);
+                }
+            }
+        }
+
+        .derechos-footer{
+            padding-top: 0;
+        }
+
+    }
 
 }
+
