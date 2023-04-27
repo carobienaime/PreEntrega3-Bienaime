@@ -11,108 +11,38 @@ main{
         margin-top: 1.1rem;
         margin-bottom: 1.1rem;
 
+        .cont-menu2{
+            @extend %flex3;
+
+            .h2-secc{
+                @extend %h2-secc;
+            }
+            .lista-menu{
+                list-style: none;
+                @extend %flex2;
+                gap: 1rem;
+                margin-bottom: 0;
+                padding-left: 0;
+                .item-lista-menu{
+                    @extend %flex2;
+                    .nombre-plato{
+                        @extend %nombre-plato;
+                    }
+                    .descrip-plato{
+                        @extend %descrip-plato;
+                    }
+
+                }
+            }
+        }
         .cont-h2-menu{
             @extend %flex3;
             @include padding-mobile;
-            .h2-secc{
-                @extend %h2-secc;
-            }
         }
-        .entradas-menu{
-            @extend %flex3;
-            .h2-secc{
-                @extend %h2-secc;
-            }
-            .lista-menu{
-                list-style: none;
-                @extend %flex2;
-                gap: 1rem;
-                margin-bottom: 0;
-                padding-left: 0;
 
-                .item-lista-menu{
-                    @extend %flex2;
-                    .nombre-plato{
-                        @extend %nombre-plato;
-                    }
-                    .descrip-plato{
-                        @extend %descrip-plato;
-                    }
-                }
-            }
-        }
-        .principales-menu{
-            @extend %flex3;
-            .h2-secc{
-                @extend %h2-secc;
-            }
-            .lista-menu{
-                list-style: none;
-                @extend %flex2;
-                gap: 1rem;
-                margin-bottom: 0;
-                padding-left: 0;
-
-                .item-lista-menu{
-                    @extend %flex2;
-                    .nombre-plato{
-                        @extend %nombre-plato;
-                    }
-                    .descrip-plato{
-                        @extend %descrip-plato;
-                    }
-                }
-            }
-        }
-        .guarniciones-menu{
-            @extend %flex3;
-            .h2-secc{
-                @extend %h2-secc;
-            }
-            .lista-menu{
-                list-style: none;
-                @extend %flex2;
-                gap: 1rem;
-                margin-bottom: 0;
-                padding-left: 0;
-
-                .item-lista-menu{
-                    @extend %flex2;
-                    .nombre-plato{
-                        @extend %nombre-plato;
-                    }
-                    .descrip-plato{
-                        @extend %descrip-plato;
-                    }
-                }
-            }
-        }
-        .postres-menu{
-            @extend %flex3;
-            .h2-secc{
-                @extend %h2-secc;
-            }
-            .lista-menu{
-                list-style: none;
-                @extend %flex2;
-                gap: 1rem;
-                margin-bottom: 0;
-                padding-left: 0;
-
-                .item-lista-menu{
-                    @extend %flex2;
-                    .nombre-plato{
-                        @extend %nombre-plato;
-                    }
-                    .descrip-plato{
-                        @extend %descrip-plato;
-                    }
-                }
-            }
-        }
     }
 
-    .galeria-menu{
+    .geleria-menu{
         @include flex2;
         gap: 1rem;
         @include margin-mobile;
@@ -120,8 +50,8 @@ main{
         .img-menu{
             @include img(100%, 100%);
         }
-
     }
+
 }
 
 
