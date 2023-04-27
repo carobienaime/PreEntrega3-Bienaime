@@ -26,10 +26,15 @@ main{
                 .item-lista-menu{
                     @extend %flex2;
                     .nombre-plato{
-                        @extend %nombre-plato;
+                        font-weight: 600;
+                        margin-bottom: 0;
+                        padding: 0.5rem;
+                        color: $color-font-text;
                     }
                     .descrip-plato{
-                        @extend %descrip-plato;
+                        font-style: oblique;
+                        color: $color-font-text;
+                        margin-bottom: 0;
                     }
 
                 }

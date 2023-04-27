@@ -21,36 +21,11 @@
     gap: 0.8rem;
 }
 
-%cont-secc{
-    background-color: $color-principal;
-    @include padding-mobile;
-    @include flex1;
-}
-
-%titulo-secc{
-    margin-bottom: 0;
-    color: $color-font-secc;
-    font-size: 1.2rem;
-}
-
 %h2-secc{
     margin-bottom: 0;
     color: $color-font-text;
     font-size: 1rem;
     font-weight: bold;
-}
-
-%nombre-plato{
-    font-weight: 600;
-    margin-bottom: 0;
-    padding: 0.5rem;
-    color: $color-font-text;
-}
-
-%descrip-plato{
-    font-style: oblique;
-    color: $color-font-text;
-    margin-bottom: 0;
 }
 
 %h3-footer{

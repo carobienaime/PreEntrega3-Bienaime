@@ -1,0 +1,20 @@
+//imports
+
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+/*estilos del titulo principal de las secciones - version mobile*/
+
+main {
+    .cont-secc {
+        background-color: $color-principal;
+        @include padding-mobile;
+        @include flex1;
+
+        .titulo-secc {
+            margin-bottom: 0;
+            color: $color-font-secc;
+            font-size: 1.2rem;
+        }
+    }
+}

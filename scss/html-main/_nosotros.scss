@@ -4,15 +4,7 @@
 @import "../utilidades/extend";
 @import "../utilidades/mixin";
 
-main {
-    .cont-secc {
-        @extend %cont-secc;
-
-        .titulo-secc {
-            @extend %titulo-secc;
-        }
-    }
-
+main {    
     .main-nosotros {
         display: grid;
         grid-template-columns: 1fr;
