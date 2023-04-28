@@ -13,10 +13,11 @@ main{
 
         .cont-menu2{
             @include flex3;
-
+            
             .h2-secc{
                 @extend %h2-secc;
             }
+            
             .lista-menu{
                 list-style: none;
                 @include flex2;

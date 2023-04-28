@@ -19,10 +19,10 @@ main {
             @include margin-mobile;
             @include flex2;
 
-            .h2-secc {
+            .h2-secc{
                 @extend %h2-secc;
             }
-
+            
             .h2-secc-nos {
                 margin-top: 1.1rem;
                 padding-top: 0.5rem;
